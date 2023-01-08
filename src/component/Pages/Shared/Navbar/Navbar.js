@@ -7,13 +7,16 @@ const Navbar = () => {
     <li className="rounded-2xl mx-2"><NavLink to='/'>Home</NavLink></li>
     <li className="rounded-2xl"><NavLink to='/projects'>Projects</NavLink></li> 
     <li className="rounded-2xl"><NavLink to='/contact'>Contact</NavLink></li> 
+    <li className="rounded-2xl"><NavLink to='/blog'>Blog</NavLink></li> 
+    <li className="rounded-2xl"><NavLink to='/about'>About Me</NavLink></li> 
+   
    <a href="https://drive.google.com/uc?export=download&id=1fELO3UX0R2bHxhBezgzRapPaSSSMQ-yF" download='Md. Nazmus Sakib.pdf'>
    <button className='p-2 bg-blue-600 rounded-2xl ml-12 '>Download Resume</button>
    </a>
     </>
     
         return (
-            <div className="navbar flex justify-around border-2 border-red-600 bg-gradient-to-t from-violet-500 to-fuchsia-500 text-white sticky top-0 z-10">
+            <div className="navbar flex justify-around border-2 border-red-600 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white sticky top-0 z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

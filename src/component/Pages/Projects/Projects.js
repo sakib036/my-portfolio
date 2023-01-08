@@ -1,32 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Project from './Project/Project';
-import sshMobile from '../../Assets/Projects/ssh-mobile.png'
-import perfectEngineering from '../../Assets/Projects/perfect-engineering.png'
-import topTechedu from '../../Assets/Projects/top-techedu.png'
+// import sshMobile from '../../Assets/Projects/ssh-mobile.png'
+// import perfectEngineering from '../../Assets/Projects/perfect-engineering.png'
+// import topTechedu from '../../Assets/Projects/top-techedu.png'
 
 
 const Projects = () => {
 
-    const projects=[
-        {
-            projectName:"ssh-mobile",
-            title:"ssh-mobile which is second hand mobile resell website. ",
-            projectImg: sshMobile,
+    const [projects,setProjects]=useState([]);
 
-        },
-        {
-            projectName:"perfect-engineering",
-            title:"perfect-engineering for individual work service.  ",
-            projectImg:perfectEngineering,
+    useEffect( ()=>{
+        fetch('projects.json')
+        .then(res=>res.json())
+        .then(data=>{
+            setProjects(data)
+        })
+    },[])
 
-        },
-        {
-            projectName:"top-techedu",
-            title:"top-techedu which is online training base website. ",
-            projectImg: topTechedu,
+    // const projects=[
+    //     {
+    //         projectName:"ssh-mobile",
+    //         title:"ssh-mobile which is second hand mobile resell website. ",
+    //         projectImg: sshMobile,
 
-        },
-    ]
+    //     },
+    //     {
+    //         projectName:"perfect-engineering",
+    //         title:"perfect-engineering for individual work service.  ",
+    //         projectImg:perfectEngineering,
+
+    //     },
+    //     {
+    //         projectName:"top-techedu",
+    //         title:"top-techedu which is online training base website. ",
+    //         projectImg: topTechedu,
+
+    //     },
+    // ]
 
 
     return (

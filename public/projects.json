@@ -1,0 +1,190 @@
+[
+    {
+      "id": "63347858bffc68635e96155a",
+      "projectName": "ssh-mobile",
+      "title": "ssh-mobile which is second hand mobile resell website. ",
+      "projectImg": "./images/projects/ssh-mobile.png",
+      "projectImg1": "./images/ssh-mobile/ssh-mobile-ad.png",
+      "projectImg2": "./images/ssh-mobile/ssh-mobile-category.png",
+      "projectImg3": "./images/ssh-mobile/ssh-mobile-home.png",
+      "projectImg4": "./images/ssh-mobile/ssh-mobile-seler-ad.png",
+      "technology":" React, Tailwind, MongoDB, React router, Firebase, useQuery, Vercel, JWT. ",
+      "live_site":"https://ssh-mobile.web.app/",
+      "client_site":"https://github.com/sakib036/ssh-mobile-client",
+      "server_site":"https://github.com/sakib036/ssh-mobile-server-ripo",
+      "images":[
+       
+        {
+          "image": "./images/ssh-mobile/ssh-mobile-ad.png"
+
+        },
+        {
+          "image":"./images/ssh-mobile/ssh-mobile-category.png"
+
+        },
+        {
+          "image":"./images/ssh-mobile/ssh-mobile-home.png"
+
+        },
+        {
+          "image":"./images/ssh-mobile/ssh-mobile-seler-ad.png"
+
+        }
+      ],
+
+      "details": [
+        {
+          "line":1,
+          "note":"In the Home Page you will see the header , This Is the Most Popular which is advertise section , category section there are three category. "
+        },
+        {
+          "line":2,
+          "note":"Admin See user seller and report route to access and delete any reported product "
+        },
+        {
+          "line":3,
+          "note":"There is a advertise section on home page , seller can advertise their product when advertise button click ."
+        },
+        {
+          "line":4,
+          "note":"Mobile is Separate Category wise If You Choose any Product Which is add to your my order route. "
+        },
+        {
+          "line":5,
+          "note":"Admin can verify a seller when verify there is a green tick on the verified user.  "
+        }
+      ]
+    },
+
+
+    {
+      "id": "63347858bffc68635e96155b",
+      "projectName": "perfect-engineering",
+      "title": "perfect-engineering for individual Online Home Electric Service   ",
+      "projectImg": "./images/projects/perfect-engineering.png",
+      "projectImg1": "./images/ssh-mobile/ssh-mobile-ad.png",
+      "projectImg2": "./images/ssh-mobile/ssh-mobile-category.png",
+      "projectImg3": "./images/ssh-mobile/ssh-mobile-home.png",
+      "projectImg4": "./images/ssh-mobile/ssh-mobile-seler-ad.png",
+      "technology":" React, Tailwind, MongoDB, React router, Firebase, useQuery, Vercel, JWT",
+      "live_site":"https://perfect-engineering.web.app/",
+      "client_site":"https://github.com/sakib036/server-review-client",
+      "server_site":"https://github.com/sakib036/service-review-server",
+
+      "images":[
+        
+        {
+          "image": "./images/perfect-engineering/1.png"
+
+        },
+        {
+          "image":"./images/perfect-engineering/2.png"
+
+        },
+        {
+          "image":"./images/perfect-engineering/3.png"
+
+        },
+        {
+          "image":"./images/perfect-engineering/4.png"
+
+        },
+        {
+          "image":"./images/perfect-engineering/5.png"
+
+        }
+      ],
+
+      "details": [
+        {
+          "line":1,
+          "note":"In the Home Page you will see the header , This Is the Most Popular which is advertise section , category section there are three category. "
+        },
+        {
+          "line":2,
+          "note":"When You Login You Can Show My Review and Add Service Page. "
+        },
+        {
+          "line":3,
+          "note":"You can comment any text when you log in which is shown in the service page and also shown in my review route here you edit or delete your comment."
+        },
+        {
+          "line":4,
+          "note":"There is a add service page where you add any service this is shown when you log in. "
+        },
+        {
+          "line":5,
+          "note":"All Service Data and Comment Are Show Edit or Delete From Mongodb.  "
+        }
+      ]
+    },
+
+
+    {
+      "id": "63347858bffc68635e96155c",
+      "projectName": "top-techedu",
+      "title": "top-techedu which is online training base website.  ",
+      "projectImg": "./images/projects/top-techedu.png",
+      "projectImg1": "./images/ssh-mobile/ssh-mobile-ad.png",
+      "projectImg2": "./images/ssh-mobile/ssh-mobile-category.png",
+      "projectImg3": "./images/ssh-mobile/ssh-mobile-home.png",
+      "projectImg4": "./images/ssh-mobile/ssh-mobile-seler-ad.png",
+      "technology":" React, Tailwind, MongoDB, React router, Firebase, useQuery, Vercel, JWT. ",
+      "live_site":"https://top-techedu.web.app/",
+      "client_site":"https://github.com/sakib036/learning-platform-client",
+      "server_site":"https://github.com/sakib036/learning-platform-server",
+
+      "images":[
+        
+        {
+          "image": "./images/top-techedu/1.png"
+
+        },
+        {
+          "image": "./images/top-techedu/2.png"
+
+        },
+        {
+          "image": "./images/top-techedu/3.png"
+
+        },
+        {
+          "image": "./images/top-techedu/4.png"
+
+        },
+        {
+          "image": "./images/top-techedu/5.png"
+
+        },
+        {
+          "image": "./images/top-techedu/6.png"
+
+        }
+      ],
+
+      "details": [
+        {
+          "line":1,
+          "note":"In the Home Page left side category  and right side card shown. "
+        },
+        {
+          "line":2,
+          "note":"when click any category which is shown details page. "
+        },
+        {
+          "line":3,
+          "note":"Here generate pdf and also premium access to get offer button  generate pdf can download a pdf file and when click premium access button you can redirect to sign in page when sign in the successful message shown.  "
+        },
+        {
+          "line":4,
+          "note":"when login users picture is shown in navbar  when hover show the user name of the navbar"
+        },
+        {
+          "line":5,
+          "note":"When a user log in sign out button is shown . "
+        }
+      ]
+    }
+    
+   
+  ]
