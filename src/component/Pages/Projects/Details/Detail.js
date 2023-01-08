@@ -4,7 +4,7 @@ import { Carousel } from 'react-carousel-minimal';
 
 
 const Detail = ({ project }) => {
-    console.log(project)
+   
     const { projectName,images, title, server_site, live_site, client_site, technology, details, projectImg} = project;
 
     
@@ -17,7 +17,7 @@ const Detail = ({ project }) => {
         fontWeight: 'bold',
       }
 
-    //   console.log(data)
+    
 
 
     return (
@@ -67,7 +67,7 @@ const Detail = ({ project }) => {
             </div>
             <div className='text-xl'>
                 {
-                    details.map(detailed => <li>{detailed.note}</li>)
+                    details.map(detailed => <li key={detailed.line}>{detailed.note}</li>)
                 }
                 <h2 className='font-bold text-center my-10'>Technology Used: {technology}</h2>
             </div>

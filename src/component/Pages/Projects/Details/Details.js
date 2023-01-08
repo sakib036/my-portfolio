@@ -5,9 +5,9 @@ import Detail from './Detail';
 
 const Details = () => {
     let { id } = useParams();
-    console.log(id)
+    
     const [projectDetails,setProjectDetails]=useState([]);
-    // console.log(projectDetails)
+   
 
    useEffect( ()=>{
     fetch('projects.json')
@@ -16,7 +16,7 @@ const Details = () => {
    } ,[])
 
     const projectDetail = projectDetails.filter(project => project.id === id);
-    console.log(projectDetail)
+   
 
     return (
         <div>
